@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Personal Folder
+Content/Valentin/*
+Content/Leo/*
+Content/Paul/*
+Content/Thomas/*
+Content/Karim/*
