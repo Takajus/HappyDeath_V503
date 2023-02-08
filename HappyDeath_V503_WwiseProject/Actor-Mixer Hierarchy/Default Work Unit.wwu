@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3CFB7540-214E-4F55-B5AF-4BB3F6ADBBEF}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{3CFB7540-214E-4F55-B5AF-4BB3F6ADBBEF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3CFB7540-214E-4F55-B5AF-4BB3F6ADBBEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ValveV2" ID="{05D91A91-A803-4088-921D-A3FE7700F7D1}" ShortID="818984819">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2EF40CA-F6CD-4716-BC1C-7A2108E4643B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C0CDBBC-56E5-4B32-B061-D963FDF7CA12}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ValveV2" ID="{B45B70A6-A072-41AD-9649-795080B10455}">
+							<Language>SFX</Language>
+							<AudioFile>ValveV2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="433024101"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ValveV2" ID="{B45B70A6-A072-41AD-9649-795080B10455}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
