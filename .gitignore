@@ -73,9 +73,13 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+
+!Plugins/Wwise/Binaries/*
+!Plugins/Wwise/Binaries/Win64/*.dll
+
 # Personal Folder
-Content/Valentin/*
-Content/Leo/*
-Content/Paul/*
-Content/Thomas/*
-Content/Karim/*
+Content/Valentin
+Content/Leo
+Content/Paul
+Content/Thomas
+Content/Karim
