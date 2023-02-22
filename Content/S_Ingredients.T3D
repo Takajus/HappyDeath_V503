@@ -1,0 +1,11 @@
+Begin Object Class=/Script/Engine.UserDefinedStruct Name="S_Ingredients"
+   Begin Object Class=/Script/UnrealEd.UserDefinedStructEditorData Name="UserDefinedStructEditorData_0"
+   End Object
+   Begin Object Name="UserDefinedStructEditorData_0"
+      UniqueNameId=10
+      VariablesDescriptions(0)=(VarName="Type_8_4F036CC04396136DECF60F96D7DEEB36",VarGuid=4F036CC04396136DECF60F96D7DEEB36,FriendlyName="Type",DefaultValue="NewEnumerator0",Category="byte",SubCategoryObject="/Game/Features/Crafting/E_MaterialType.E_MaterialType",CurrentDefaultValue="NewEnumerator0")
+      VariablesDescriptions(1)=(VarName="Quantity_9_695B45DB4591022097DF48950307FD13",VarGuid=695B45DB4591022097DF48950307FD13,FriendlyName="Quantity",DefaultValue="0",Category="int",CurrentDefaultValue="0")
+   End Object
+   EditorData=/Script/UnrealEd.UserDefinedStructEditorData'"UserDefinedStructEditorData_0"'
+   Guid=D4939E1D4A625F444BDF6D87F3F61E14
+End Object
